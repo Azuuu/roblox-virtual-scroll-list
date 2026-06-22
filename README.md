@@ -6,14 +6,14 @@ A lightweight, framework-free virtual scrolling grid for Roblox. Supports large 
 
 ## Features
 
-- **Performance** — renders only the visible rows; works smoothly with 10,000+ items.
-- **Grid support** — configurable column count, spacing, and aspect ratio.
-- **AutoScale** — column count adjusts automatically to the frame width.
-- **Filtering** — register multiple named predicates; all are AND-combined.
-- **Search** — built-in debounce-friendly search with a customizable match function.
-- **Sorting** — register multiple named comparators applied in priority order.
-- **UIPadding** — auto-detected; padded items land in the right place automatically.
-- **No dependencies** — pure Luau, no external packages.
+:white_check_mark: **Performance** — renders only the visible rows; works smoothly with 10,000+ items.
+:white_check_mark: **Grid support** — configurable column count, spacing, and aspect ratio.
+:white_check_mark: **AutoScale** — column count adjusts automatically to the frame width.
+:white_check_mark: **Filtering** — register multiple named predicates; all are AND-combined.
+:white_check_mark: **Search** — built-in debounce-friendly search with a customizable match function.
+:white_check_mark: **Sorting** — register multiple named comparators applied in priority order.
+:white_check_mark: **UIPadding** — auto-detected; padded items land in the right place automatically.
+:white_check_mark: **No dependencies** — pure Luau, no external packages.
 
 ---
 
