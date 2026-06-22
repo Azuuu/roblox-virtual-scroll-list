@@ -1,6 +1,6 @@
 -- VirtualScrollList
 -- Neuroticxs(Ace) v0.0.1 / 22/06/2026
--- github: 
+-- github: https://github.com/Azuuu/roblox-virtual-scroll-list
 
 -- A lightweight, framework-free virtual scrolling grid for Roblox.
 -- Supports large datasets (10,000+ items) without creating one Instance
@@ -381,7 +381,8 @@ function VirtualScrollList:RemoveFilter(name: string)
 	if self._filters[name] == nil then return end
 	self._filters[name] = nil
 	for i, n in ipairs(self._filterOrder) do
-		if n == name then table.remove(self._filterOrder, i); break end
+		if n == name then table.remove(self._filterOrder, i)
+break end
 	end
 	self:_applyFiltersAndSort()
 end
@@ -408,7 +409,8 @@ function VirtualScrollList:SetSearch(query: string?, matchFn: SearchMatchFn?)
 		if self._filters[DEFAULT_SEARCH_KEY] then
 			self._filters[DEFAULT_SEARCH_KEY] = nil
 			for i, n in ipairs(self._filterOrder) do
-				if n == DEFAULT_SEARCH_KEY then table.remove(self._filterOrder, i); break end
+				if n == DEFAULT_SEARCH_KEY then table.remove(self._filterOrder, i)
+break end
 			end
 		end
 		self:_applyFiltersAndSort()
@@ -458,7 +460,8 @@ function VirtualScrollList:RemoveSort(name: string)
 	if self._sorts[name] == nil then return end
 	self._sorts[name] = nil
 	for i, n in ipairs(self._sortOrder) do
-		if n == name then table.remove(self._sortOrder, i); break end
+		if n == name then table.remove(self._sortOrder, i)
+break end
 	end
 	self:_applyFiltersAndSort()
 end
