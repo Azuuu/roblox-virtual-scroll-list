@@ -15,6 +15,17 @@ A lightweight, framework-free virtual scrolling grid for Roblox. Supports large 
 - :white_check_mark: **UIPadding** — auto-detected; padded items land in the right place automatically.
 - :white_check_mark: **No dependencies** — pure Luau, no external packages.
 
+
+## Scrolling Preview
+Test for 1.5k+ items
+
+https://github.com/user-attachments/assets/190d610a-b4b1-49a1-b687-36b573546ad0
+
+Behind scenes
+
+https://github.com/user-attachments/assets/5ae99cbd-fe1c-41a1-8e9b-f956deda5949
+
+
 ---
 
 ## Installation
